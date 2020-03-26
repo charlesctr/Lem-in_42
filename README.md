@@ -6,11 +6,12 @@
   </a>
 </p>
 
-<h1>What is Lem-in</h1> 
+<h1>What is Lem-in ?</h1> 
 
 <p>
+
 * The lem-in project at 42 consists in writing a program that takes an undirected graph (an anthill composed of connected rooms) and computes the most efficient way to move N ants from source node to sink node.
-...
+
 * It serves as an introduction to graph theory and maximum flow problems. </p>
 
 
