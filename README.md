@@ -29,7 +29,7 @@ make
 ## Run tests
 
 ```sh
-./checkerlemin
+./lemincheck.sh
 ```
 
 ## Authors
