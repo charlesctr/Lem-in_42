@@ -18,13 +18,57 @@
 ## Install
 
 ```sh
-make
+Usage:
+
+	make <command> :
+
+- lemin:	Compilation and creation of lem-in binary
+- lib:		Compilation of libft library
+- norm		Check
+- clean:	Delete only object files from library and lem-in
+- fclean:	Delete all object files and binay from lem-in and libft
+- re:		Recompile lem-in project
+- help:		Display this usage section
+
+Makefile compatible with multithreading :
+
+make lemin -j8
 ```
 
 ## Usage
 
 ```sh
 ./lem-in [-l] < path/to/map
+
+Exemple :
+
+./lem-in < ./maps/map2ch
+3
+##start
+A 0 0
+B 1 1
+C 2 2
+D 3 3
+E 4 4
+F 5 5
+G 6 6
+##end
+H 7 7
+A-B
+A-C
+B-E
+C-D
+C-F
+E-F
+D-G
+F-H
+G-H
+
+L1-B L2-C
+L1-E L2-D L3-B
+L1-F L2-G L3-E
+L1-H L2-H L3-F
+L3-H
 ```
 
 ## Run tests
