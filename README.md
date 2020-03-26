@@ -73,6 +73,12 @@ L3-H
 
 ## Run tests
 
+![alt text](https://github.com/charlesctr/Lem-in_42/blob/master/menu_lem-in.png)
+
+![alt text](https://github.com/charlesctr/Lem-in_42/blob/master/check_lem-in.png)
+
+
+
 ```sh
 ./lemincheck.sh
 ```
